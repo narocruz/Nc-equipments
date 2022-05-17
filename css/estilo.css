@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    color: #513B3C;
+    font-style: italic;
+    grid-area: footer;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size:20px;
+}
+h1 {
+    font-weight: bold;
+    font-style: oblique;
+    color: black;
+}
+
+.fotoSec {
+    width: 1000px;
+}
+.fotoPrim {
+    width: 1200px;
+}
+li {
+    display: inline-block;
+}
+header {
+    background-color: black;
+    border: 2px black solid;
+    padding: 4px;
+    height: 70px;
+    width: 100%;
+    position: sticky; 
+    top: 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    grid-area: header;
+   
+    
+    
+}
+
+.navPrinc {
+    display: flex;
+    margin-right: 40px;
+    color: #F3EFE0;
+    
+}
+
+.menuLink {
+    display: flex ;
+    text-decoration: none;
+    color: #F3EFE0;
+    font-size: 20px;
+    margin: 0 10px;
+    line-height: 70px;
+    text-transform: uppercase;
+   
+    
+    
+}
+
+.headerLogo {
+    display: flex;
+    justify-content: start;
+    padding: 0 40px;
+    line-height: 70px;
+    font-size: 45px;
+    color: #F3EFE0
+    
+    }
+
+     .bodyPrinc {
+   
+        background-color: #7FEFBD;
+       
+        
+        
+       
+        
+    }
+    
+    .titQuienEs  {
+        
+        display: flex;
+        justify-content: center;
+        margin: 0 20px;
+        font-size: 40px;
+        
+    }
+
+    .titServ {
+        margin: 0 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .quienEs {
+       
+        display: flex;
+        justify-content: center;
+        
+    }
+
+   
+    .divPadre {
+        margin: auto;
+        text-transform: uppercase;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+     
+    .divHijo {
+        height: 600px;
+        width: 500px;
+        margin-top: 120px;
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+    }
+    
+
+    .divGale {
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 500px; 
+    }
+    
+    .galImg{
+        
+        border: 1px white solid;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    }
+        
+    .mainGal {
+        grid-area: maingal ;
+        grid-template-areas: 
+        "header header header"
+        "maingal maingal maingal"
+        "footer footer footer";
+    }
+   
