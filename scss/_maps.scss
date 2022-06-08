@@ -1,0 +1,11 @@
+
+$estilo:(color:black,tamFuente:30px);
+
+.divCont {
+
+    background-color: map-get($estilo,color);
+    font-size: map-get($estilo,tamfuente);
+    
+
+}
+    

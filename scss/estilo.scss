@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #CF5C36;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: sans-serif;
+
+    section {
+        div {
+            img {
+                width: 100px;
+            }
+        }
+
+    }
+    
+
+    
+}
+
+.btnWpp {
+    
+    img {
+        position: fixed;
+        width: 60px;
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+header {
+    
+
+    position: sticky;
+    top: 0;
+
+    img {
+        display: flex;
+        width: 35px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    ul {
+        font-size: 24px;
+    }
+    }
+
+    
+    .galContainer {
+                
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    
+
+        .galImg {
+    
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .itemGal:nth-child(4) {
+            
+            grid-column-start: span 2;
+            
+        }
+        
+            .itemGal:nth-child(8) {
+                
+                grid-row-start: span 2;
+                
+            }
+
+            .itemGal:nth-child(9) {
+                
+                grid-column-start: span 2;
+                
+            }
+    }
+    
+    
+    
+    @media (min-width:720px) and (max-width:1020px) {
+        
+        .galContainer {
+            
+            grid-template-columns: 1fr 1fr;
+            width: 100%;
+            
+            
+        }
+        .itemGal:nth-child(3) {
+            
+            grid-column-start: span 2;
+        }
+    }
+    
+    
+    @media (max-width:720px) {
+        
+        .galContainer {
+            
+            grid-template-columns:  1fr;
+            width: 100%;
+            
+            
+            
+        }
+        
+        
+    }
+    
+    
+    
+    
+    footer {
+        
+        background-color: #7C7C7C;
+        height: 180px;
+        margin-top: auto;
+        width: 100%;
+        
+        
+        
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly
+            
+            
+        }
+        
+        img {
+            width: 90px;
+            
+        
+        
+        }
+        p {
+            text-align: center;
+            
+            
+            
+        }
+    }
+    
+    main {
+        div {
+            height: auto;
+            
+            
+        }
+    
+    }
+
+    .divCont {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: small;
+            
+        }
+        
+        img {
+            width: 60px;
+
+        }
+        
+        ul {
+
+            list-style-type: none;
+        }
+
+    }
+
+    
+        
+    
+    
+
+        
+
+                
+           
+       
+
+       
+
+
+   
+
+
+
+    
+    
+
+            
+               
+                
+                
+                
+
+        
+  
+
