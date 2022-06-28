@@ -9,7 +9,9 @@
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
    <link rel="stylesheet" href="../css/estilo.css">
 </head>
+
 <body class="bodyPrinc">
+
   <header>
     <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
         <div class="container">
@@ -23,8 +25,15 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="servicios.html">Servicios</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="servicios.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="sonido.html">Sonido</a></li>
+                  <li><a class="dropdown-item" href="iluminacion.html">Iluminación</a></li>
+                  <li><a class="dropdown-item" href="djs.html">Djs</a></li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="galeria.html">Galeria</a>
@@ -37,12 +46,14 @@
     </div>
 </nav> 
 </header>
-<main class="container-fluid">
-<div class="row">
+
+<main class="container-fluid mainQuien">
+
+ <div class="row">
   <img class="col-lg-7 col-md-12 col-sm-12 img-fluid"  src="/imgcode/pexels-yan-krukov-9005500.jpg" alt="Foto dj fiesta">
-  <div class="col-lg-5 col-md-12 col-sm-12 mt-5">
-    <h2 class="h1 mt-4 text-center text-uppercase">¿Quienes Somos?</h2>
-            <p class="h3 mt-5">Somos una empresa que se dedica al servicio integral de equipos profesionales para eventos, comenzamos en este rubro en el año 2019 y estamos en constante busqueda de material para brindar nuevos servicios.
+  <div class="col-lg-5 col-md-12 col-sm-12 mt-5 quienEs">
+    <h2 class="h1 mt-4 text-center ">¿Quienes Somos?</h2>
+            <p class="h3 mt-4">Somos una empresa que se dedica al servicio integral de equipos profesionales para eventos, comenzamos en este rubro en el año 2019 y estamos en constante busqueda de material para brindar nuevos servicios.
               <h3 class="h2 mt-4">Condiciones para la reserva</h3>
               <ul>
                 <li class="h4 mt-3">Enviar a nietojuancruz@gmail.com o por wpp foto de dni ambos lados.</li>
@@ -55,15 +66,18 @@
                   <li class="h4">El equipo es entregado con todos sus cables, del equipo para afuera es responsabilidad del cliente.</li>
                 </ul>
                 <h5 class="h5 mt-5">Estamos ubicados en Del viso calle schumann 5990, cerca de la ruta 8</h4>
-                </div>
-              </div>
-            </main>
+    </div>
+ </div>
+</main>
+
             <div class="btnWpp">
               <a href="https://api.whatsapp.com/send?phone=+541158431200" target="_blank">
                 <img src="\imgcode\whatsapp.png" alt="link whatsapp">
               </a>
             </div>
+
             <footer>
+
               <p><strong> © 2022 NC EQUIPMENTS, TODOS LOS DERECHOS RESERVADOS</strong></p>
               <div>
                 <a href="https://www.instagram.com/_narocruz_/" target="_blank">
@@ -78,7 +92,9 @@
                   <img class="img-fluid"  src="\imgcode\Youtube Icon.png" alt="Youtube Nc Equipments"></a>
                 </div>
                 <p>Sitio Web creado por <strong>Juan Cruz Nieto</strong></p>
-              </footer>
+
+             </footer>
+
             <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
       </body>

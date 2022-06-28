@@ -14,6 +14,7 @@
 </head>
    
 <body class="bodyPrinc">
+
   <header>
     <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
         <div class="container">
@@ -27,8 +28,15 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="servicios.html">Servicios</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="servicios.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Servicios
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="sonido.html">Sonido</a></li>
+                <li><a class="dropdown-item" href="iluminacion.html">Iluminación</a></li>
+                <li><a class="dropdown-item" href="djs.html">Djs</a></li>
+              </ul>
             </li>
               <li class="nav-item">
                 <a class="nav-link" href="quienessomos.html">¿Quienes Somos?</a>
@@ -42,6 +50,7 @@
     </div>
 </nav>
 </header>
+
 <main>
     
     <div class="galContainer">
@@ -99,14 +108,16 @@
 
       <img src="https://musicaelectronica.club/custom/domain_20/image_files/sitemgr_photo_821.jpg" class="galImg" alt="Iluminacion fiesta">
 
+     </div>
   </div>
-    </div>
-    </main>
+</main>
+
     <div class="btnWpp">
       <a href="https://api.whatsapp.com/send?phone=+541158431200" target="_blank">
         <img src="\imgcode\whatsapp.png" alt="link whatsapp">
       </a>
     </div>
+
     <footer>
       <p><strong> © 2022 NC EQUIPMENTS, TODOS LOS DERECHOS RESERVADOS</strong></p>
       <div>
@@ -123,6 +134,7 @@
         </div>
         <p>Sitio Web creado por <strong>Juan Cruz Nieto</strong></p>
       </footer>
+      
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();

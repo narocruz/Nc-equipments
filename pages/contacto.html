@@ -9,7 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
+
 <body class="bodyPrinc">
+
   <header>
     <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
         <div class="container">
@@ -23,8 +25,15 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="servicios.html">Servicios</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="servicios.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="sonido.html">Sonido</a></li>
+                  <li><a class="dropdown-item" href="iluminacion.html">Iluminación</a></li>
+                  <li><a class="dropdown-item" href="djs.html">Djs</a></li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="quienessomos.html">¿Quienes Somos?</a>
@@ -35,11 +44,12 @@
             </ul>
         </div>
     </div>
-</nav>
+ </nav>
 </header>
-  <main class="container">
+
+  <main class="container mainQuien">
       <form class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-5">
             <legend class="mt-5">Formulario De Contacto</legend>
             <div class="mt-4">
               <label class="form-label" for="nameInput">Nombre</label>
@@ -62,65 +72,76 @@
               <input type="reset">
             </div>
           </div>
-          <div class="col-lg-6 mt-5 divCont">
+          <div class="col-lg-7  mt-5 ml-5 divCont">
+
             <div class="alt-features-icon"> 
-              <img src="\imgcode\megafono.png" class="h3" alt="Llamado a la acción">ESCRIBÍNOS O VISITANOS EN LAS REDES SOCIALES!
+              <img src="\imgcode\megafono.png" class="accion h3" alt="Llamado a la acción">Escribinos o vistanos en las redes sociales!
             </div>
             
-            <ul class="mt-4">
-              <li>
-                <a href="https://www.instagram.com/_narocruz_/" target="_blank">
-                  <img class="img-fluid" src="\imgcode\Instagram Icon.png" alt="Link a instagram">https://www.instagram.com/_narocruz_/
-                </a>
+            <div class="mt-5">
+              <ul class="mt-5">
+                <li>
+                  <a href="https://www.instagram.com/_narocruz_/" target="_blank">
+                    <img class="img-fluid" src="\imgcode\Instagram Icon.png" alt="Link a instagram">https://www.instagram.com/_narocruz_/
+                  </a>
+  
+                </li>
+                <li>
+                  <a href="https://www.facebook.com" target="_blank">
+                    <img class="img-fluid" src="/imgcode\Facebook Icon.png" alt="Link a Facebook">https://www.facebook.com
+                  </a>
+  
+                </li>
 
-              </li>
-              <li>
-                <a href="https://www.facebook.com" target="_blank">
-                  <img class="img-fluid" src="/imgcode\Facebook Icon.png" alt="Link a Facebook">https://www.facebook.com
-                </a>
+                <li>
+                  <a href="https://www.youtube.com/channel/UCG7QWhD_GcHdFw86PG3bHKA" target="_blank">
+                    <img class="img-fluid" src="\imgcode\Youtube Icon.png" alt="Link a Facebook">https://www.youtube.com/
+                  </a>
+  
+                </li>
+                
 
-              </li>
-              <li>
-                <a href="https://www.youtube.com/channel/UCG7QWhD_GcHdFw86PG3bHKA" target="_blank">
-                  <img class="img-fluid"  src="\imgcode\Youtube Icon.png" alt="Link a youtube">https://www.youtube.com/channel/UCG7QWhD_GcHdFw86PG3bHKAqq</a>
-
-              </li>
-
-              
-              
-            </ul>
-        
+              </ul>
             </div>
+         </div>
         </div>
-        </form>
+      </form>
+    </main>
+
+  <div class="btnWpp">
+    <a href="https://api.whatsapp.com/send?phone=+541158431200" target="_blank">
+      <img src="\imgcode\whatsapp.png" alt="link whatsapp">
+    </a>
+  </div>
+
+  <footer>
+    <p><strong> © 2022 NC EQUIPMENTS, TODOS LOS DERECHOS RESERVADOS</strong></p>
+    <div>
+      <a href="https://www.instagram.com/_narocruz_/" target="_blank">
+        <img class="img-fluid" src="\imgcode\Instagram Icon.png" alt="Instagram Naro cruz">
+      </a>
+      
+      <a href="https://www.facebook.com" target="_blank">
+        <img class="img-fluid" src="/imgcode\Facebook Icon.png" alt="Link a facebook">
+      </a>
+      
+      <a href="https://www.youtube.com/channel/UCG7QWhD_GcHdFw86PG3bHKA" target="_blank">
+        <img class="img-fluid"  src="\imgcode\Youtube Icon.png" alt="Youtube Naro cruz"></a>
+      </div>
+      <p>Sitio Web creado por <strong>Juan Cruz Nieto</strong></p>
+    </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+  </html>
+        
+
+
+              
+              
         
           
-      </main>
-    <div class="btnWpp">
-      <a href="https://api.whatsapp.com/send?phone=+541158431200" target="_blank">
-        <img src="\imgcode\whatsapp.png" alt="link whatsapp">
-      </a>
-    </div>
-    <footer>
-      <p><strong> © 2022 NC EQUIPMENTS, TODOS LOS DERECHOS RESERVADOS</strong></p>
-      <div>
-        <a href="https://www.instagram.com/_narocruz_/" target="_blank">
-          <img class="img-fluid" src="\imgcode\Instagram Icon.png" alt="">
-        </a>
-        
-        <a href="https://www.facebook.com" target="_blank">
-          <img class="img-fluid" src="/imgcode\Facebook Icon.png" alt="">
-        </a>
-        
-        <a href="https://www.youtube.com/channel/UCG7QWhD_GcHdFw86PG3bHKA" target="_blank">
-          <img class="img-fluid"  src="\imgcode\Youtube Icon.png" alt=""></a>
-        </div>
-        <p>Sitio Web creado por <strong>Juan Cruz Nieto</strong></p>
-      </footer>
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
-</html>
 
               
                 

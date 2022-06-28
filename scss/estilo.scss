@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2? family= Abel & family= Bodoni+Moda:ital,opsz,wght@1,6..96,500 & family= Catamarán:wght@100 ;500 & family= Joan & family= Josefin+Sans:wght@700 & family= Lora:ital@1 & family= Roboto:wght@100 & family= Source+Serif+Pro:ital,wght@0,300;1,200 & display =intercambiar');
 * {
     margin: 0;
     padding: 0;
 }
 
+
+
 body {
-    background-color: #CF5C36;
+    background-image: url(/imgcode/pawel-czerwinski-EVc9wRUXpeo-unsplash.jpg);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     font-family: sans-serif;
+    z-index: 10;
 
     section {
         div {
@@ -22,6 +26,12 @@ body {
 
     
 }
+
+.quienEs {
+    font-family: 'Lora', serif;
+}
+
+
 
 .btnWpp {
     
@@ -38,6 +48,7 @@ header {
 
     position: sticky;
     top: 0;
+    z-index: 20;
 
     img {
         display: flex;
@@ -113,12 +124,67 @@ header {
             
             
         }
+
+        .divCont {
+            display: none;
+        }
         
         
     }
+
+    .mainServ {
+        background-image: url(/imgcode/pawel-czerwinski-EVc9wRUXpeo-unsplash.jpg);
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: center;
+       
+    }
+
+    .titulo {
+        
+        text-align: center;
+        width: 100%;
+        margin: 30px;
+        
+        
+        font-size: 30px;
+        color: lightgray;
+         
+        
+       
+    }
+
+    .caja img {
+        width: 320px;
+        height: 480px;
+        border-radius: 30px;
+        background-color: lightslategray;
+    }
+    .caja {
+        
+        margin: 30px;
+        background-color: #7C7C7C;
+
+        .titImg {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        p {
+            text-align: center;
+            font-size: 15px;
+
+        }
+
+    }
+
     
-    
-    
+
     
     footer {
         
@@ -159,17 +225,22 @@ header {
         }
     
     }
-
+    
     .divCont {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+        
+        .accion {
+            display: flex;
+            flex-direction: row;
+            
+        }
+        
+        
 
         a {
             text-decoration: none;
-            color: black;
-            font-size: small;
+            color: #7C7C7C;
+            
             
         }
         
@@ -184,6 +255,47 @@ header {
         }
 
     }
+ 
+    .mainSon {
+        background-color: white;
+
+        }
+
+        .mainQuien {
+            color: #7C7C7C;
+        }
+
+        @media (max-width:1024px) {
+            
+            .mainQuien {
+    
+               .divCont {
+    
+                display: none;
+                width: 600px;
+    
+                    
+               }
+            }
+
+        }
+            
+
+            
+
+        
+       
+    
+        
+
+        
+    
+   
+    
+
+        
+            
+   
 
     
         
